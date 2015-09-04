@@ -38,9 +38,11 @@ Get "Hello" again.
 ...
         <configuration>
           <directory>com/keghani/hello</directory>
-          **<excludes>
+
+          <excludes>
             <exclude>com/keghani/hello/Exclude.java</exclude>
-          </excludes>**
+          </excludes>
+
         </configuration>
 ...
 ```
