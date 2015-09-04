@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.keghani.hello</groupId>
   <artifactId>maven-experiment</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
-  <url>https://github.com/keghani/maven-experiment/</url>
+  <url>https://github.com/keghani/maven-experiment</url>
 
   <build>
     <plugins>
@@ -12,9 +13,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <excludes>
-            <exclude>com/keghani/hello/Exclude.java</exclude>
-          </excludes>
           <directory>com/keghani/hello</directory>
         </configuration>
       </plugin>

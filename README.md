@@ -5,7 +5,8 @@ Understanding Maven source exclusion
 
 ### Clone this repository:
 ```
-$ cd && mkdir maven-experiment-clone && cd maven-experiment-clone && git clone https://github.com/keghani/maven-experiment.git && cd maven-experiment
+$ cd && mkdir maven-experiment-clone && cd maven-experiment-clone && \
+  git clone https://github.com/keghani/maven-experiment.git && cd maven-experiment
 ```
 
 ### See pom.xml:
@@ -59,6 +60,9 @@ Check that you see ```Hello.class``` but not ```Exclude.class```.
 $ java -cp target/maven-experiment-1.0.0.jar com.keghani.hello.Hello
 ```
 Get "Hello".
+
+## Acknowledgements:
+Thanks to @jias0001 for the references!
 
 ## References:
 *    [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
